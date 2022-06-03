@@ -1,6 +1,5 @@
 input[type="button"]{
-    background-color: #48e5c2;
-    border: 0;
+
     padding: 6px 40px;
     border-radius: 8px;
     cursor: pointer;
@@ -11,4 +10,14 @@ input[type="button"]:hover{
     background-color: #3ca0c2;
 
   
+}
+.bordered{
+    border: #48e5c2 solid 3px;
+    background-color: transparent;
+    color: white;
+}
+
+.filled{
+    background-color: #48e5c2;
+    border: 0;
 }

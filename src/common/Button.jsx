@@ -1,8 +1,12 @@
 import "./Button.css"
 
-function Button(){
+function Button({name, isBordered, onClick}){
 
-    return <input type="button" value="Button"/>
+    return <input 
+    type="button" 
+    value={name} 
+    className={isBordered ? "bordered" : "filled"} 
+    onClick={onClick}/>
 }
 
 export default Button;

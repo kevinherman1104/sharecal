@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* align horizontally */
+    justify-content: center; /* align vertically */
+    height: 100%;  /* to make div height same as page height */
+}
+.logo{
+    width: 96px;
+}
+.cyan{
+    color: #48e5c2;
+}

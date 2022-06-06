@@ -8,9 +8,11 @@ import {randWords} from "../misc/util";
 function Home() {
 
   const [calName, setCalName] = useState("");
+  console.count("counter");
 
 
   return (
+    
     <div className="container">
       <div><img src={logo} alt="main logo" className="logo" /></div>
       <h1>Welcome to <span className="cyan">ShareCal</span></h1>
